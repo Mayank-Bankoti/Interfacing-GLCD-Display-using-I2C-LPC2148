@@ -1,0 +1,20 @@
+ARM COMPILER V2.40a,  OLED display interfacing                                             31/08/23  06:57:39  PAGE 1   
+
+
+ARM COMPILER V2.40a, COMPILATION OF MODULE OLED display interfacing
+OBJECT MODULE PLACED IN OLED display interfacing.OBJ
+COMPILER INVOKED BY: C:\Keil\ARM\BIN\CA.exe OLED display interfacing.c THUMB BROWSE DEBUG TABS(4) 
+
+stmt  level    source
+
+    1          #include "lpc214x.h"
+    2          
+    3          void I2C_init(void)
+    4          {
+    5   1       PINSEL0 = PINSEL0 | Ox00000050
+    6   1      
+    7   1      }
+*** ERROR C67 IN LINE 5 OF OLED DISPLAY INTERFACING.C: 'Ox00000050': undefined identifier
+*** ERROR C25 IN LINE 7 OF OLED DISPLAY INTERFACING.C: syntax error near '}'
+
+ARM COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)

@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\mayan\Documents\ARM\OLED display interfacing\OLED display interfacing.uv2
+Project File Date:  08/31/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling OLED display interfacing.c...
+OLED DISPLAY INTERFACING.C(5): error C67: 'Ox00000050': undefined identifier
+OLED DISPLAY INTERFACING.C(7): error C25: syntax error near '}'
+Target not created
